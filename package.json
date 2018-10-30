@@ -1,0 +1,23 @@
+{
+  "name": "yarn-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
+    "jest-dom": "^2.1.0",
+    "jest-watch-typeahead": "^0.2.0",
+    "jest-watch-yarn-workspaces": "^1.1.0",
+    "react-testing-library": "^5.2.3"
+  }
+}

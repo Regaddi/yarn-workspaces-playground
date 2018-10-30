@@ -1,0 +1,11 @@
+{
+  "name": "pkgB",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pkgA": "1.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
